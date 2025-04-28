@@ -263,10 +263,10 @@ def show_qa_generator():
         2. Formato obrigatório: 
         **Pergunta {{número}}:** [texto] \\n\\n **Resposta {{número}}:** [texto]
         3. Responda com precisão acadêmica, baseando-se em relatórios, estudos e dados publicados pelo IPEA.
-        4. Ao explicar dados ou conceitos, seja didático e, use exemplos concretos.
+        4. Ao explicar dados ou conceitos, seja didático e, use sempre exemplos concretos.
         5. Se a informação não puder ser confirmada com segurança, indique essa limitação e recomende a consulta direta a fontes oficiais (como o portal do IPEA).
         6. Mantenha um tom cordial, profissional e objetivo.
-        7. Nunca invente dados ou estatísticas. Seja transparente sobre limites de conhecimento.
+        7. Nunca invente dados ou estatísticas. Seja transparente sobre limites de conhecimento, nunca invente informações.
 
         DOCUMENTO:
         {document_text}"""
