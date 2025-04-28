@@ -18,7 +18,9 @@ def format_with_ai(text: str) -> str:
     """
     try:
         prompt = ChatPromptTemplate.from_messages([
-            ("system", """Você é um especialista em formatação de documentos técnicos. Reformate o texto seguindo estas regras:
+            ("system", """Você é um agente especializado do Instituto de Pesquisa Econômica Aplicada (IPEA), com profundo conhecimento sobre estudos socioeconômicos, políticas públicas, desenvolvimento econômico, mercado de trabalho, ciência política, dados estatísticos e análise de indicadores sociais,
+            Sua missão é fornecer respostas claras, técnicas e atualizadas sobre qualquer assunto relacionado ao IPEA.
+            Reformate o texto seguindo estas regras:
 
             1. **Estruturação lógica:**
                - Use headers hierárquicos (#, ##, ###)
