@@ -44,6 +44,25 @@ def format_with_ai(text: str) -> str:
                - Quebras de linha para parágrafos longos
                - Links clicáveis quando detectar URLs
 
+            5. **Adicionar Instruções de Correção de Erros Comuns de OCR ou Conversão:**
+               - Corrija erros típicos de extração de texto, como espaçamentos errados, caracteres corrompidos e quebras de linha incorretas em frases
+
+            6. **Detecção e Melhoria de Tabelas e Listas:**
+              - Sempre que detectar listas com valores estruturados (ex: Nome | Valor), organize em uma tabela Markdown para melhor visualização
+
+            7. **Reconhecimento e Tratamento de Citações, Notas de Rodapé e Referências:**
+              - Detecte e formate adequadamente citações e referências bibliográficas usando blocos especiais ou notas no final do documento
+
+            8. **Padronização de Abreviações e Siglas:**
+              - Padronize siglas e abreviações para formato consistente (sempre em MAIÚSCULAS)
+
+            9. **Manutenção de URLs**:
+              - Transforme links em formato clicável: `[texto](url)`
+
+            10. **Numeração e listas**:
+             - Preserve a ordem e numeração originais de listas numeradas.
+             - Use marcadores (-) para listas não numeradas.
+
             Input: Texto Markdown cru extraído de documentos variados
             Output: Versão formatada seguindo padrões técnicos"""),
             ("human", "Texto original:\n{text}\n\nTexto reformatado:")
