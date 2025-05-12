@@ -39,7 +39,7 @@ def load_llm():
     return prompt | ChatOpenAI(
         api_key=OPENAI_API_KEY,
         # Usando secrets do Streamlit
-        temperature=0.5,
+        temperature=0.25,
         model=MODEL_CHAT,
         streaming=True
     )
